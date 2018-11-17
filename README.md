@@ -389,7 +389,7 @@ You should receive a small green popup at the top stating "**`Ecobee Suite Manag
 
 At this point, the SmartApp will automatically create all of the new devices, one for each thermostat and sensor. These will show up in your regular **`Things`** list within the app. 
 
-Using the settings is fine, but some of the more advanced features will require you to change the default settings for Ecobee Suite. My recommended settings are:
+Using the default settings is fine, but some of the more advanced features will require you to change the default settings for Ecobee Suite. My recommended settings are:
 - **Hold Type:** If not specified, this will default to the setting on the thermostat itself. Some of the helper SmartApps allow you to customize this for specific operations.
 - **Polling Interval:** 1 minute if you are using Helper SmartApps to react to thermostat conditions (like changing to heating/cooling, or running a specific Program/Climate); otherwise 2-5 minutes might be sufficient.
 - **Decimal Precision:** One of the reasons I created this in the first place is to get more precision out of the thermostat. If you set this to 1 decimal position, you'll understand better how the thermostat is reacting to your environment, and when "72°" is really "72.4°".
